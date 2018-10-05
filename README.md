@@ -14,7 +14,7 @@
 
  See also PulseSpaceIndex node.js ES6 for analyzing OOK 433 and RF signals
 
- General OOK decoding without knowing the protocol before hand.
+## General OOK decoding without knowing the protocol before hand.
 
  A lot of opensource software/hardware OOK decoding solutions
  disregard the fact that commercial solutions do work with cheap receivers
@@ -38,7 +38,6 @@
    but should be small enough to keep AGC correct.
  - Few time variations can be stored as index instead of exact timepulse.
 
- Change sort to sort merge?
 
  Test with
 	ORSV2
@@ -103,7 +102,7 @@
 		SevenWatt: Normal signals between 170 and 2600. Sync (space after high( between 5400 and 6100))
 		Split 1600, 64..66 pulse/spaces
 
- RcSwitch timing definitions:
+## RcSwitch timing definitions:
   Format for protocol definitions:
   {pulselength, Sync bit, "0" bit, "1" bit}
 
