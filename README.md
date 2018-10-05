@@ -1,13 +1,20 @@
 # PulseSpaceIndexRfIr
  General OOK decoding without knowing the protocol before hand.
+
  Receive OOK data using Arduino and Nodo layout:
+
   SERIAL_BAUD 57600
+
   RF_ReceiveDataPin           2  // Input of OOK 433Mhz-RF signal. LOW (Off): no signal
+
   IR_ReceiveDataPin           3  // Input of IR signal TSOP. HIGH: no signal
 
  Not yet:
+
  RF_TransmitDataPin          5  // Output of OOK 433Mhz-R
+
  IR_TransmitDataPin         11  // Output IR-Led transmitter
+
 
  See also PulseSpaceIndex node.js ES6 for analyzing OOK 433 and RF signals
 
